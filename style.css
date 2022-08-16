@@ -1,0 +1,242 @@
+:root{
+    --color1:#a517ba;
+    --color2:#5f1782;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+   
+}
+#navbar{
+    background-image: linear-gradient(to right,var(--color1),var(--color2));
+    position:sticky;
+    top: 0;
+    z-index: 5;
+}
+.navbar-brand img{
+    filter: invert();
+    height: 40px;
+    padding-left:20px;
+    
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-toggler{
+    color: white;
+    outline: none;
+    border: none;
+}
+.navbar-nav li{
+    padding: 0 20px;
+}
+.navbar-nav li a{
+    color: white;
+    font-weight: 600;
+    /* float: right; */
+    /* text-align: center; */
+}
+/* -----------------------------banner--------------------- */
+#banner{
+    background-image: linear-gradient(to right,var(--color1),var(--color2));
+    padding-top: 5%;
+    color: white;
+}
+#banner h3{
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#banner a{
+    text-decoration:none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fa-circle-play{
+    margin: 10px;    
+    font-size: 35px;
+    position: relative;
+    top: 5px;
+}
+.upgrade{
+    padding:10%;
+}
+.wave{
+    width: 100%;
+}
+.bottom-img{
+    width: 100%;
+}
+/* ---------------service----------------- */
+#service{
+    padding: 5%;
+}
+.title{
+    padding:2%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.title::before{
+    content: '';
+    display: block;
+    background-color: var(--color1);
+    width: 200px;
+    height: 3px;
+    margin: 0px auto;
+    transform: translateY(50px);
+}
+.title::after{
+    content: '';
+    display: block;
+    background-color: var(--color1);
+    width: 50px;
+    height: 10px;
+    margin: 0px auto;
+    transform: translateY(5px);
+}
+#service h4{
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-size: 22px;
+    padding: 5px;
+    margin-top:15px;
+}
+#service img{
+    width: 60px;
+    margin: 15px;
+}
+#service .btn-primary{
+    background-image: linear-gradient(to right,var(--color1),var(--color2));
+    border: none;
+    padding: 8px 25px;
+    border-radius:20px;
+    font-size: 15px;
+}
+/* --------------------------about-------------- */
+#about{
+    padding: 50px 0;
+    background: #f8f9fa;
+}
+.about-us p{
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-left: 5px;
+}
+.about-us ul li{
+    margin: 10px 0;
+}
+/* --------------------testimonial------------------------ */
+#testimonial{
+    margin: 50px 0;
+
+}
+#testimonial .col-md-5{
+    border-left: 4px solid var(--color1);
+    margin: 50px 0;
+}
+#testimonial p{
+    font-size: 15px;
+}
+#testimonial img{
+    width: 60px;
+    border-radius: 50%;
+    margin:0px 10px;
+}
+#testimonial .user-details{
+    vertical-align: bottom;
+    font-size:13px;
+    display: inline-block;
+}
+/* ----------------social media----------------- */
+#social-media{
+    padding: 100px;
+    background-color: #fafbfc;
+}
+#social-media p{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.social-icons{
+    padding:10px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+/* -------------------footer--------------- */
+#footer{
+    background: var(--color1);
+    color: white;
+    /* padding-bottom: 50px; */
+}
+.footer-wave{
+    width: 100%;
+}
+#footer .row{
+    padding: 50px 20px;
+}
+#footer .col-md-4{
+    margin-top:10px;
+}
+.row .first img{
+    width: 150px;
+    margin: 10px;
+}
+.row .first p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row .second h3{
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.row .second .fa-solid{
+    background-image: linear-gradient(to right,var(--color2),var(--color1));
+    border: 1px solid var(--color2);
+    padding:10px;
+    font-size: 20px;
+    margin-right: 8px;
+
+}
+.row .second p{
+    font-size: 15px;
+}
+.row .third h3{
+    text-transform: uppercase;
+    font-size:18px;
+    margin-bottom:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row .btn-primary{
+   background-image: linear-gradient(to right,var(--color2),var(--color1));
+      border: 0;
+      border-radius: 0;
+}
+.row .form-control{
+    border-radius: 0;
+    border: 0;
+    max-width: 300px;
+}
+#footer hr{
+    background-color:whitesmoke;
+}
+#footer .copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
